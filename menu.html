@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore steamed, fried, tandoori, kurkure, cheese, and chocolate momos at Momo Magic.">
+  <title>Our Menu | Momo Magic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="index.html" aria-label="Momo Magic home"><span class="brand-mark" aria-hidden="true">M</span><span>Momo <b>Magic</b></span></a>
+    <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="primary-nav"><a href="index.html">Home</a><a class="active" aria-current="page" href="menu.html">Menu</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle light and dark mode"><span aria-hidden="true">☾</span></button><button class="cart-button" type="button" aria-label="Open shopping cart">Cart <span class="cart-count" aria-live="polite">0</span></button></div>
+  </nav></header>
+  <main id="main">
+    <section class="page-hero menu-hero"><div class="container page-hero-content fade-in"><p class="eyebrow">MADE FRESH. FOLDED WITH LOVE.</p><h1>Find your <em>momo.</em></h1><p>Steamy, crispy, cheesy, chocolatey. There’s a little something for every kind of craving.</p><div class="breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Menu</span></div></div></section>
+    <section class="section container menu-section">
+      <div class="menu-toolbar fade-in"><div class="category-list" role="group" aria-label="Filter by momo category"><button class="category-button active" type="button" data-category="All" aria-pressed="true">All momos</button><button class="category-button" type="button" data-category="Steamed" aria-pressed="false">Steamed</button><button class="category-button" type="button" data-category="Fried" aria-pressed="false">Fried</button><button class="category-button" type="button" data-category="Tandoori" aria-pressed="false">Tandoori</button><button class="category-button" type="button" data-category="Kurkure" aria-pressed="false">Kurkure</button><button class="category-button" type="button" data-category="Cheese" aria-pressed="false">Cheese</button><button class="category-button" type="button" data-category="Chocolate" aria-pressed="false">Chocolate</button></div>
+        <div class="menu-filters"><label class="search-field"><span class="visually-hidden">Search momos</span><span aria-hidden="true">⌕</span><input type="search" id="menu-search" placeholder="Search momos..." autocomplete="off"></label><label class="veg-filter"><input type="checkbox" id="veg-only"><span class="switch" aria-hidden="true"></span><span>Veg only</span></label><label class="nonveg-filter"><input type="checkbox" id="nonveg-only"><span class="switch" aria-hidden="true"></span><span>Non-veg only</span></label></div>
+      </div>
+      <p class="results-count" id="menu-results-count" aria-live="polite"></p>
+      <div class="menu-grid" id="menu-items" aria-live="polite"></div>
+      <p class="no-results" id="menu-no-results" hidden>No momos found. Try another search or category.</p>
+      <p class="menu-note">Please let our team know about any allergies before placing your order.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">M</span><span>Momo <b>Magic</b></span></a><p>Hand-folded happiness, served warm.</p></div><div class="footer-links"><div><h2>Explore</h2><a href="menu.html">Our menu</a><a href="about.html">Our story</a><a href="contact.html">Say hello</a></div><div><h2>Find us</h2><span>42 Little Tibet Lane</span><span>New Delhi, India</span><a href="tel:+911144556677">+91 11 4455 6677</a></div><div><h2>Come by</h2><span>Mon–Sun</span><span>12:00 pm – 10:00 pm</span></div></div></div><div class="container footer-bottom"><span>© <span data-year></span> Momo Magic. Made with love & chilli.</span><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></div></div></footer>
+  <aside class="cart-panel" aria-label="Shopping cart" aria-hidden="true"><div class="cart-panel-header"><div><p class="eyebrow">YOUR ORDER</p><h2>Your momo bag</h2></div><button class="cart-close" type="button" aria-label="Close shopping cart">×</button></div><div class="cart-items"></div><div class="cart-empty"><span aria-hidden="true">🥟</span><p>Your bag is waiting for something delicious.</p><a class="button button-primary" href="menu.html">Explore the menu</a></div><div class="cart-panel-footer"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Delivery calculated at checkout.</p><button class="button button-primary checkout-button" type="button">Continue to checkout</button></div></aside><div class="cart-overlay" hidden></div><button class="back-to-top" type="button" aria-label="Scroll to top">↑</button>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hand-folded momos, bold flavors, and a little bit of magic. Find your new favorite at Momo Magic.">
+  <title>Momo Magic | A little bite of happiness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Momo Magic home"><span class="brand-mark" aria-hidden="true">M</span><span>Momo <b>Magic</b></span></a>
+      <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="primary-nav">
+        <a class="active" aria-current="page" href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle light and dark mode"><span aria-hidden="true">☾</span></button>
+        <button class="cart-button" type="button" aria-label="Open shopping cart">Cart <span class="cart-count" aria-live="polite">0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-copy fade-in">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> FRESHLY FOLDED, ALWAYS</p>
+        <h1>A little bite<br>of <em>happiness.</em></h1>
+        <p class="hero-description">Hand-folded momos, bold Himalayan flavors, and the kind of warmth that makes you stay for one more.</p>
+        <div class="hero-actions"><a class="button button-primary" href="menu.html">Order now <span aria-hidden="true">→</span></a><a class="text-link" href="about.html">Get to know us <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-stars" aria-label="5 out of 5 stars">★★★★★</span><span>Loved by momo people everywhere</span></div>
+      </div>
+      <div class="hero-visual fade-in">
+        <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1100&q=85" alt="A plate of freshly steamed dumplings served with dipping sauce" loading="lazy">
+        <div class="hero-sticker"><span>Made with</span><strong>♥</strong><span>every day</span></div>
+        <div class="hero-caption"><span class="caption-dot"></span> THE ORIGINAL STEAMED MOMO <b>₹149</b></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Our promises">
+      <div class="container trust-items"><span>🥟 <b>Folded fresh</b> every day</span><span>🌿 <b>Real ingredients</b>, no shortcuts</span><span>🌶️ <b>Made your way</b>, spice and all</span></div>
+    </section>
+
+    <section class="section container" aria-labelledby="favorites-title">
+      <div class="section-heading fade-in"><div><p class="eyebrow">THE CROWD FAVORITES</p><h2 id="favorites-title">Momo made memorable.</h2></div><a class="text-link" href="menu.html">Explore the menu <span aria-hidden="true">→</span></a></div>
+      <div class="featured-grid" id="featured-momos"></div>
+    </section>
+
+    <section class="why-section">
+      <div class="container why-layout">
+        <div class="why-copy fade-in"><p class="eyebrow">A LITTLE MORE MAGIC</p><h2>Good food.<br><em>Good feeling.</em></h2><p>We believe the best things are made by hand and shared with people you love. Every momo starts with a patient fold, a generous filling, and ingredients we’re proud to serve.</p><a class="button button-light" href="about.html">Our story <span aria-hidden="true">→</span></a></div>
+        <div class="feature-grid">
+          <article class="feature-card fade-in"><span class="feature-icon" aria-hidden="true">✳</span><h3>Folded by hand</h3><p>Little pockets of joy, carefully made fresh throughout the day.</p></article>
+          <article class="feature-card fade-in"><span class="feature-icon" aria-hidden="true">♡</span><h3>Good from the inside</h3><p>Thoughtful ingredients and plenty of delicious veggie options.</p></article>
+          <article class="feature-card fade-in"><span class="feature-icon" aria-hidden="true">☼</span><h3>Big, bold flavor</h3><p>From cozy steamed classics to a proper tandoori kick.</p></article>
+          <article class="feature-card fade-in"><span class="feature-icon" aria-hidden="true">☺</span><h3>Made to share</h3><p>Come hungry, bring your people, and stay a little longer.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container testimonials" aria-labelledby="testimonial-title">
+      <div class="section-heading fade-in"><div><p class="eyebrow">KIND WORDS, FULL HEARTS</p><h2 id="testimonial-title">Don’t just take our word.</h2></div><div class="slider-controls"><button class="slider-button" type="button" data-testimonial-prev aria-label="Previous testimonial">←</button><button class="slider-button" type="button" data-testimonial-next aria-label="Next testimonial">→</button></div></div>
+      <div class="testimonial-card fade-in" aria-live="polite"><p class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</p><blockquote id="testimonial-quote"></blockquote><div class="testimonial-author"><span class="author-avatar" id="testimonial-initials"></span><div><strong id="testimonial-name"></strong><span id="testimonial-location"></span></div></div><div class="slider-dots" id="testimonial-dots" aria-label="Testimonial slides"></div></div>
+    </section>
+
+    <section class="cta-band container fade-in"><div><p class="eyebrow">YOUR NEXT FAVORITE IS WAITING</p><h2>Ready for a little magic?</h2></div><a class="button button-primary" href="menu.html">Find your momo <span aria-hidden="true">→</span></a></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">M</span><span>Momo <b>Magic</b></span></a><p>Hand-folded happiness, served warm.</p></div><div class="footer-links"><div><h2>Explore</h2><a href="menu.html">Our menu</a><a href="about.html">Our story</a><a href="contact.html">Say hello</a></div><div><h2>Find us</h2><span>42 Little Tibet Lane</span><span>New Delhi, India</span><a href="tel:+911144556677">+91 11 4455 6677</a></div><div><h2>Come by</h2><span>Mon–Sun</span><span>12:00 pm – 10:00 pm</span></div></div></div><div class="container footer-bottom"><span>© <span data-year></span> Momo Magic. Made with love & chilli.</span><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></div></div></footer>
+
+  <aside class="cart-panel" aria-label="Shopping cart" aria-hidden="true"><div class="cart-panel-header"><div><p class="eyebrow">YOUR ORDER</p><h2>Your momo bag</h2></div><button class="cart-close" type="button" aria-label="Close shopping cart">×</button></div><div class="cart-items"></div><div class="cart-empty"><span aria-hidden="true">🥟</span><p>Your bag is waiting for something delicious.</p><a class="button button-primary" href="menu.html">Explore the menu</a></div><div class="cart-panel-footer"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Delivery calculated at checkout.</p><button class="button button-primary checkout-button" type="button">Continue to checkout</button></div></aside>
+  <div class="cart-overlay" hidden></div>
+  <button class="back-to-top" type="button" aria-label="Scroll to top">↑</button>
+</body>
+</html>
